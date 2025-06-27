@@ -2,7 +2,7 @@ import streamlit as st
 
 st.title('Streamlit 앱의 테마 사용자 정의하기')
 
-st.write('이 앱의 `.streamlit/config.toml` 파일 내용')
+st.write('이 앱의 `.streamlit_app/config.toml` 파일 내용')
 
 st.code('''
 [theme]
